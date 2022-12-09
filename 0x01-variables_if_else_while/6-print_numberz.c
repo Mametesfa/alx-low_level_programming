@@ -16,6 +16,6 @@ int main(void)
 		putchar(n);
 		n ++;
 	}
-	fwrite("\n");
+	putchar('\n');
 	return (0);
 }
