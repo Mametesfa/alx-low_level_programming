@@ -12,27 +12,28 @@ int main(void)
 
 {
 	int n1 = 48;
-
 	int n2 = 48;
 
-	int com = 44;
-
-	while (n1 <= 57)
+	while (n2 < 58)
 	{
-		n2 = 48;
+		n1 = 48;
 
-		while (n2 <= 57)
+	    while (n1 <= 58)
 		{
+		if (n2 != n1 && n2 < n1)
+		{ 
 			putchar(n1);
 			putchar(n2);
-			if (n1 != 57 || n2 != 57)
+			if (n1 == 57 && n2 == 56)
 			{
-				putchar(com);
-				putchar(32);
+				break;
 			}
-			n2 += 1;
+				putchar(',');
+				putchar(' ');
+			}
+			n1++;
 		}
-		n1 += 1;
+		n2++;
 	}
 	putchar('\n');
 	return (0);
