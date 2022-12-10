@@ -11,29 +11,23 @@
 int main(void)
 
 {
-	int n1 = 48;
-	int n2 = 48;
+	int n, m;
 
-	while (n2 < 58)
+	for (n = 48; n <= 56; n++)
 	{
-		n1 = 48;
-
-	    while (n1 <= 58)
+		for (m = 49; m <= 57; m++)
 		{
-		if (n2 != n1 && n2 < n1)
-		{ 
-			putchar(n1);
-			putchar(n2);
-		  if (n1 == 57 || n2 == 56)
+			if (m > n)
 			{
-				break;
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-				putchar(',');
-				putchar(' ');
-			}
-			n1++;
 		}
-		n2++;
 	}
 	putchar('\n');
 	return (0);
