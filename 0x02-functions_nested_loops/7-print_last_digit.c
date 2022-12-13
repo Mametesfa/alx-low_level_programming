@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * print_last_digit - function that prints the last digit of a number
  * @x: The input number to chec
  * Return: 0
