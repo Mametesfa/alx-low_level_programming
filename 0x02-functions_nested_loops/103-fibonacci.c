@@ -9,7 +9,7 @@ int N = 4000000;
 int main(void)
 {
 	int i = 2;
-	printf(sum(i);
+	printf(sum(i));
 	return 0;
 }
 int sum(int n) {
