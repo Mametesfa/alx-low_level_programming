@@ -12,7 +12,7 @@ int main(void)
 	int n = 0;
 	long fib;
 
-	while (n < 100)
+	while (n < 50)
 	{
 		fib = j + i;
 		if (n != 49)
