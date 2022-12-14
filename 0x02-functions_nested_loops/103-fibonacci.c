@@ -1,9 +1,10 @@
 #include <stdio.h>
-using namespace std;
-
+/**
+ * main- calculate fabonnacci
+ * Return: c
+ */
 int sum(int n);
 int fib(int n);
-
 const int N = 4000000;
 int main() {
   int i = 2;
