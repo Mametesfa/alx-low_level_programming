@@ -12,7 +12,7 @@ int main() {
 	return 0;
 }
 int sum(int n) {
-	int sum = 0; // suma de los terminos pares
+	int sum = 0;
 	while (fib(n) < N)
   {
 		if (fib(n)%2==0)
@@ -26,10 +26,10 @@ int sum(int n) {
 
 int fib(int n)
 {
-	int a = 0; // anterior
-	int b = 1; // posterior
-	int c = 0; // suma de a+b
-	int i = 1; // contador
+	int a = 0;
+	int b = 1;
+	int c = 0;
+	int i = 1;
   
 	while (i <= n)
   {
@@ -39,4 +39,4 @@ int fib(int n)
 
 		i++;
 	}
-	return c;
+	return 0;
