@@ -5,7 +5,7 @@
  */
 int sum(int n);
 int fib(int n);
-int N = 4000000;
+cont int N = 4000000;
 int main(void)
 {
 	int i = 2;
