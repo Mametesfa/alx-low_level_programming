@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 /**
  * add - function that adds two integers and returns the result.
  * @n1: input integer 1
