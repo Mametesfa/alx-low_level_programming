@@ -18,7 +18,7 @@ if (mult < 10)
 {
 if (col != 0)
 {
--putchar(' ');
+_putchar(' ');
 _putchar(' ');
 }
 _putchar(mult + '0');
