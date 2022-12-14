@@ -5,10 +5,11 @@
  */
 int sum(int n);
 int fib(int n);
-const int N = 4000000;
-int main() {
-  int i = 2;
-	cout << sum(i);
+int N = 4000000;
+int main(void)
+{
+	int i = 2;
+	printf(sum(i);
 	return 0;
 }
 int sum(int n) {
