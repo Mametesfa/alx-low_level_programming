@@ -7,7 +7,7 @@
 void print_number(int n)
 {
 	int m; /* power of 10 */
-	int c; /* boolean check */
+	float c; /* boolean check */
 	int num;
 
 	num = n;
