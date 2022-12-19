@@ -3,6 +3,7 @@
  /**
   * print_rev - Prints a string in reverse.
   * @s: The string to be printed.
+  * Discroption: print_rev - Prints a string in reverse
   */
 void print_rev(char *s)
 {
@@ -13,7 +14,6 @@ void print_rev(char *s)
 	{
 		fcounter++;
 	}
-	
 	for (n = (fcounter - 1); n >= 0; n--)
 	{
 		_putchar(s[n]);
