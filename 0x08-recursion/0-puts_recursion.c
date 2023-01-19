@@ -1,19 +1,26 @@
-#include "coding.h"
-
+#include "main.h"
 /**
- * _puts_recursion - function with 1 argument
- * @s: char type pointer
- *
- * Description: prints a string follow by a new line
- * Return: na
- */
+ * _puts_recursion - this functions prints a string.
+(* a blank line
+ *@s: string to print.
+* Description: this function prints a string)?
+(* section header: the header of this function is holberton.h)*
+* Return: this is a void function no return
+*/
 void _puts_recursion(char *s)
 {
-	if (*s == '\0')
+	int start;
+
+	start = 0;
+	if (*(s + start) != '\0')
+	{
+		_putchar(*(s + start));
+		s++;
+		_puts_recursion(s);
+	}
+	else
 	{
 		_putchar('\n');
 		return;
 	}
-	_putchar(*s);
-	_puts_recursion(s + 1);
 }
